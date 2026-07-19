@@ -1,16 +1,16 @@
 - name: nodejs setup
   ansible.builtin.import_role:
-    name: nodejs
+    name: common
     tasks_from: nodejs-setup.yaml
 
 - name: app setup
   ansible.builtin.import_role:
-    name: app setup
+    name: common
     tasks_from: app-setup.yaml
 
 - name: system setup
   ansible.builtin.import_role:
-    name: system setup
+    name: common
     tasks_from: system-setup.yaml
 
 - name: copying mongo repo file
