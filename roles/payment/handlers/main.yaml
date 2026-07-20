@@ -1,4 +1,3 @@
 - name: daemon-reload
   ansible.builtin.systemd.service:
-    - name: payment
-      daemon-reload: true
+    daemon-reload: true
