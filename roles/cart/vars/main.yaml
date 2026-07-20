@@ -1,6 +1,6 @@
 MONGODB_HOST: mongodb.mahidevops.fun
 REDIS_HOST: redis.mahidevops.fun
-CATALOG_HOST: catalogue.mahidevops.fun
+CATALOGUE_HOST: catalogue.mahidevops.fun
 CART_HOST: cart.mahidevops.fun
 MYSQL_HOST: mysql.mahidevops.fun
 USER_HOST: user.mahidevops.fun
