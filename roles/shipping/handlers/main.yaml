@@ -1,4 +1,4 @@
 - name: daemon-reload
   ansible.builtin.systemd.service:
-    name: shipping
-    daemon-reload: true
+    - name: shipping
+      daemon-reload: true

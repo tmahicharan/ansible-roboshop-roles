@@ -1,4 +1,4 @@
 - name: daemon-reload
   ansibe.builtin.systemd_service:
-    name: user
-    daemon-reload: true
+    - name: user
+      daemon-reload: true

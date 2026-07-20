@@ -1,4 +1,4 @@
 - name: daemon-reload
   ansible.builtin.systemd.service:
-    name: frontend
-    daemon-reload: true
+    - name: frontend
+      daemon-reload: true
